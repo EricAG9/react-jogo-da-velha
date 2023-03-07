@@ -1,5 +1,5 @@
 import Header from "../header/Header"
-import Game from "../game/Game"
+import Game from "../Game/Game"
 
 function GamePage () {
     return (
