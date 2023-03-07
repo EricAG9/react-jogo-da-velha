@@ -5,10 +5,12 @@ import Icon from "../icon/Icon"
 
 const GameIcon = ({iconName}) => <Icon iconName={iconName} size = "25px" />
 
-function GameOption ({status,onClick,isWinner}) {
+function GameOption ({status,onClick,isWinner,isDrow}) {
     return (
         <div className={
-            classNames(styles.gameOption,{[styles.winner] : isWinner })} 
+            classNames(styles.gameOption,{[styles.winner]: isWinner, 
+            [styles.drow] : isDrow }
+            )} 
         onClick={onClick}>
             {
                 status === 1 && <GameIcon iconName="circle" />
