@@ -1,0 +1,13 @@
+.score{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    background-color: rgb(165, 93, 233);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.scoreContent{
+    display: flex;
+    gap: 5px;
+}
